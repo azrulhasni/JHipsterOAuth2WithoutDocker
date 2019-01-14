@@ -1,0 +1,13 @@
+1) Add oauth2 to bootstrap.yml and bootstrap-prod.yml
+#bootstrap.yml
+spring:
+    application:
+        name: jhipster-registry
+    profiles:
+        active: dev,oauth2
+        include: composite
+        
+#bootstrap-prod.yml        
+spring:
+    profiles:
+        active: prod,oauth2
