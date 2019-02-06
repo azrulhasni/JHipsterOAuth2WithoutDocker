@@ -8,12 +8,12 @@ services:
             - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://admin:$${jhipster.registry.password}@jhipster-registry:8761/eureka
             - SPRING_CLOUD_CONFIG_URI=http://admin:$${jhipster.registry.password}@jhipster-registry:8761/config
             - SPRING_DATASOURCE_URL=jdbc:postgresql://gateway-postgresql:5432/gateway2
-            - SECURITY_OAUTH2_CLIENT_ACCESS_TOKEN_URI=http://keycloak:9080/auth/realms/jhipster/protocol/openid-connect/token
-            - SECURITY_OAUTH2_CLIENT_USER_AUTHORIZATION_URI=http://keycloak:9080/auth/realms/jhipster/protocol/openid-connect/auth
+            - SECURITY_OAUTH2_CLIENT_ACCESS_TOKEN_URI=http://azrulhasni.my:9080/auth/realms/jhipster/protocol/openid-connect/token
+            - SECURITY_OAUTH2_CLIENT_USER_AUTHORIZATION_URI=http://azrulhasni.my:9080/auth/realms/jhipster/protocol/openid-connect/auth
             - SECURITY_OAUTH2_CLIENT_CLIENT_ID=web_app
             - SECURITY_OAUTH2_CLIENT_CLIENT_SECRET=web_app
             - SECURITY_OAUTH2_CLIENT_SCOPE=openid profile email
-            - SECURITY_OAUTH2_RESOURCE_USER_INFO_URI=http://keycloak:9080/auth/realms/jhipster/protocol/openid-connect/userinfo
+            - SECURITY_OAUTH2_RESOURCE_USER_INFO_URI=http://azrulhasni.my:9080/auth/realms/jhipster/protocol/openid-connect/userinfo
             - JHIPSTER_SLEEP=30 # gives time for the JHipster Registry to boot before the application
         ports:
             - 18080:18080

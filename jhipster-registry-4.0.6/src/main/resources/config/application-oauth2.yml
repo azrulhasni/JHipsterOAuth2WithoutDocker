@@ -20,19 +20,19 @@
 security:
     oauth2:
         client:
-            access-token-uri: http://keycloak:9080/auth/realms/jhipster/protocol/openid-connect/token
-            user-authorization-uri: http://keycloak:9080/auth/realms/jhipster/protocol/openid-connect/auth
+            access-token-uri: http://azrulhasni.my:9080/auth/realms/jhipster/protocol/openid-connect/token
+            user-authorization-uri: http://azrulhasni.my:9080/auth/realms/jhipster/protocol/openid-connect/auth
             client-id: jhipster-registry
             #client-secret: 62f307ce-e6a7-4b2a-bc2d-d423d9c2a1f1
             client-secret: jhipster-registry
             client-authentication-scheme: form
             scope: openid profile email
         resource:
-            user-info-uri: http://keycloak:9080/auth/realms/jhipster/protocol/openid-connect/userinfo
-            token-info-uri: http://keycloak:9080/auth/realms/jhipster/protocol/openid-connect/token/introspect
+            user-info-uri: http://azrulhasni.my:9080/auth/realms/jhipster/protocol/openid-connect/userinfo
+            token-info-uri: http://azrulhasni.my:9080/auth/realms/jhipster/protocol/openid-connect/token/introspect
             prefer-token-info: false
             jwk:
-                key-set-uri: http://keycloak:9080/auth/realms/jhipster/protocol/openid-connect/certs
+                key-set-uri: http://azrulhasni.my:9080/auth/realms/jhipster/protocol/openid-connect/certs
 
 server:
     servlet:
