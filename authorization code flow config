@@ -1,0 +1,34 @@
+Configuration Parameters:
+-------------------------
+Authorization Grant: OAuth2 Authorization Code Grant
+Authorization Endpoint: http://azrulhasni.my:9080/auth/realms/jhipster/protocol/openid-connect/auth
+Token Endpoint: http://azrulhasni.my:9080/auth/realms/jhipster/protocol/openid-connect/token
+Display OIDC Related Artifacts? No
+SSL Certificate Validation? Yes
+Use Refresh Token No
+
+
+Request Authorization Code
+--------------------------
+State: <default>
+Nonce: <default>
+Client ID: jhipster-registry
+Redirect URL: http://localhost:3000/callback
+Scope: openid email profile
+Add Resource field: no
+
+<Click on Authorize>
+
+Exchange Authorization Code for Access Token
+--------------------------------------------
+
+Authorization Code: <default>
+Client ID: jhipster-registry
+Client Secret: jhipster-registry
+Redirect URL: http://localhost:3000/callback
+Scope: openid email profile
+Add Resource field: no
+
+<Get Token>
+
+
